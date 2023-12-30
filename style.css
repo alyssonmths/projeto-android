@@ -1,0 +1,168 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url("pacote-projeto-d010/fontes/idroid.otf") format("opentype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+/* https://paletadecores.com/paleta/84c24a/9ed162/b8e17b/d1f093/ebffab/ */
+
+:root {
+    /* ÁREA ONDE FICAM AS VARIÁVEIS. TODA VARIÁVEL TEM -- ANTES */
+    --cor0: #d1f093;
+}
+
+body {
+    background-color: #d1f093;
+}
+
+#tituloprincipal {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+#pprincipal {
+    text-align: center;
+}
+
+header {
+    font-family: 'Oswald', sans-serif;
+    background-image: linear-gradient(to bottom, #d1f093, #84c24a);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+nav {
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+nav > a {
+    color: white;
+    padding: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #707e6398;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+h1 {
+    font-family: idroid;
+    color: #64923a;
+}
+
+h2 {
+    font-family: idroid;
+    background-image: linear-gradient(to right, #84c24a93, white);
+    padding-left: 15px;
+    color: #64923a;
+}
+
+main {
+    background-color: white;
+    max-width: 830px;
+    margin: 0px;
+    margin: auto;
+    padding: 10px 5px 10px 15px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: -1px 6px 17px 5px #00000059;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    text-indent: 1cm;
+    text-align: justify;
+    max-width: 815px;
+}
+
+.link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #64923a;
+}
+
+.link::after {
+    content: ' 🔗';
+}
+
+.destaqueverde {
+    color: #64923a;
+    font-weight: bold;
+}
+
+#box {
+    max-width: 800px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    background-color: #9dd162b2;
+    border-radius: 10px;
+    box-shadow: 0px 1px 20px 0px #00000091;
+}
+
+#pbox {
+    background-color: #64923a;
+    text-indent: 0px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    max-width: 800px;
+    margin-left: -5px;
+    color: white;
+    font-weight: bold;
+}
+
+.item {
+    text-decoration: underline;
+}
+
+li > span.emoji {
+    display: none;
+}
+
+li:hover > span.emoji {
+    display: inline;
+}
+
+footer {
+    background-color: #64923a;
+    color: white;
+    margin-top: 20px;
+    padding: 3px;
+}
+
+#bugdroid {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+#video {
+    background-color: #64923a;
+    margin: 0px -5px 0px -15px;
+    padding: 15px;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+picture img {
+    width: 100%;
+}
